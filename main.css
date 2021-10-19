@@ -3,10 +3,10 @@
     --black: #000000;
 }
 
-#bounce {
+#start {
     position: absolute;
     top: 20px;
-    left: 300px;
+    left: 350px;
     height: 50px;
     width: 75px;
     border-radius: 50%;
@@ -15,20 +15,13 @@
     background-color: black;
 }
 
-.ball {
-    position: absolute;
-    top:20px;
-    left: 300px;
-    font-size: 80px;
-}
-
 #container {
     width: 600px;
     height: 600px;
     position: relative;
     background: blue;
 }
-#animate {
+#target {
     width: 50px;
     height: 50px;
     position: absolute;
