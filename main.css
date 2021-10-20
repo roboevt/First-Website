@@ -24,9 +24,11 @@
 }
 
 #container {
+    position: relative;
+    top:0px;
+    left: 10px;
     width: 600px;
     height: 600px;
-    position: relative;
     background: blue;
 }
 
