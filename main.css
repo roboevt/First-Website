@@ -3,7 +3,7 @@
     --black: #000000;
 }
 
-#Title {
+#title {
     color:White;
 }
 
@@ -19,8 +19,8 @@
     width: 75px;
     border-radius: 50%;
     border: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 #container {
@@ -44,12 +44,22 @@
     top: 60px;
     left: 620px;
     font-size: 24px;
+    color: white;
 }
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color:cyan;
 }
 
 #backgroundImg {
