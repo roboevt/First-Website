@@ -3,6 +3,14 @@
     --black: #000000;
 }
 
+#Title {
+    color:White;
+}
+
+#navigation {
+    color:white;
+}
+
 #start {
     position: absolute;
     top: 20px;
@@ -34,4 +42,20 @@
     top: 60px;
     left: 620px;
     font-size: 24px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#backgroundImg {
+    background-image: url('puffBackground.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid;
+    width: 99vw;
+    height: 99vh;
 }
